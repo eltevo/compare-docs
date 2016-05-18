@@ -1,0 +1,1 @@
+Design documentation for the Compare infrastructure to integrate jupyter hub with extensions to support collaborative development of genomics workflows in iPython.
