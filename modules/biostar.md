@@ -2,7 +2,7 @@
 
 Description is based on sites: https://github.com/ialbert/biostar-central and https://www.biostars.org/info/about/
 
-BioStar is a [Python][python] and [Django][django] based Q&A software.
+BioStar is a [Python](http://www.python.org/) and [Django](http://www.djangoproject.com/) based Q&A software.
 It is a simple, generic, flexible and extensible Q&A framework.
 
 The site has been developed by **scientists and for scientists**. It aims
