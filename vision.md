@@ -34,8 +34,10 @@ Users should be able to interact on projects accessible to a group of users. Hen
 - jupyterhub: web-based access to files and scripts, spawn kernels
 - gitlab: store and manage git repos
 
+
 ### Add-ons
 
 - biostar: user forum
 - binder: running ipynb directly from a git repo
 - nbdashboard: render ipynbs into working html without the scripts
+- influxdb+cadvisor+graphana for monitoring of the whole ecosystem
