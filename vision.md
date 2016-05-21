@@ -10,6 +10,7 @@ There are many options. Do we give out passwords to everyone or accept eduroam (
 
 There are three basic levels, depending on user involvment in script development:
 
+- public: lay public, citizen scientists
 - end-user: someone who wants to run existing scripts, possibly on own data
 - script author: someone who can write their own scripts from scrath or edit and tweak existing scripts
 - developer: someone who knows how to deal with all the tools (ipython, gitlab, databases, etc.) and want to use them all
