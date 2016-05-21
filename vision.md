@@ -39,3 +39,19 @@ Users should be able to interact on projects accessible to a group of users. Hen
 - biostar: user forum
 - binder: running ipynb directly from a git repo
 - nbdashboard: render ipynbs into working html without the scripts
+
+## User landing page
+
+Primary purpose is to offer a selection of pre-built worksheets and notebooks for the general biologist public. Worksheets are nbdashboard documents organized into areas (field of biology) and projects. When a worksheet is selected it automatically spawns a docker to execute the kernel behind the worksheet. Notebooks work similarly, except allow editing of scripts. Output of worksheets is persisted in the users home directory. The landing page will provide links to the user's locally stored data, git repos and other authoring tools for more advanced users.
+
+## Worksheets
+
+Notebooks can be compiled into nbdashboard format which we will term worksheets as they only allow changing certain parameters but not the underlying code.
+
+## Notebooks
+
+These are real jupyter notebooks.
+
+## Repositories
+
+We should organize scripts into repositories. A repo will be the unit of code that can be shared among users, i.e., no single file sharing will be possible. Repos should be able to be shared among users, made public in groups, made public for everyone or made public on the landing page (latter will probably require admin interaction to make the repo "official").
