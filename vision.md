@@ -10,6 +10,7 @@ There are many options. Do we give out passwords to everyone or accept eduroam (
 
 There are three basic levels, depending on user involvment in script development:
 
+- public: lay public, citizen scientists
 - end-user: someone who wants to run existing scripts, possibly on own data
 - script author: someone who can write their own scripts from scrath or edit and tweak existing scripts
 - developer: someone who knows how to deal with all the tools (ipython, gitlab, databases, etc.) and want to use them all
@@ -34,11 +35,13 @@ Users should be able to interact on projects accessible to a group of users. Hen
 - jupyterhub: web-based access to files and scripts, spawn kernels
 - gitlab: store and manage git repos
 
+
 ### Add-ons
 
 - biostar: user forum
 - binder: running ipynb directly from a git repo
 - nbdashboard: render ipynbs into working html without the scripts
+- influxdb+cadvisor+graphana for monitoring of the whole ecosystem
 
 ## User landing page
 
