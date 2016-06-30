@@ -41,6 +41,19 @@ Users should be able to interact on projects accessible to a group of users. Hen
 - nginx: reverse-proxy web services
 - nfs: server home directories
 
+### File-based storage
+
+We will store in the file system:
+
+* users' home directory for notebooks, private data, settings etc.
+* git repos checked out from gitlab
+* groups' shared data
+* data shared via owncloud or similar
+
+Access to private data must be restricted but at the same time acces to public data must be provided from all components the system (jupyter notebooks, terminals).
+
+We can either implement file permissions or use some other tricks, for example selectively mounting directories that a user can access and set access level according to group membership. This doesn't scale well for many-group membership but it should be sufficient for typical use.
+
 ### Add-ons
 
 - biostar: user forum
